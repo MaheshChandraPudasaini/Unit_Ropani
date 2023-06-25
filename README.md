@@ -1,10 +1,10 @@
 # Nepali-unit-converter
 Arc_gis Nepali area unit converter from Field Calculator
 How to use in gis 
-
+Add Field > Give name> A > type= Double >
 in field calculator:
 calculate Area 
-Add Field > Give name > type= Text >  length=8
+Add Field > Give name</any> > type= Text >  length=12
 Field Calculator:
 copy:
 def R_Ana(A):
@@ -20,6 +20,6 @@ def R_Ana(A):
 Parser (script)=python
 check box Show Codeblock
 pest in pre-logic Script Code
-In Function box call function as field_name(Area_field name)
+In Function box call function as field_name(!Area_field name!)
 Or
 Load directly .cal file on field calculator
